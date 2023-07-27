@@ -32,7 +32,7 @@ const Navbar = () => {
           <img src={toggle ? close : menu} alt='menu' className='text-white' onClick={() => settoggle((prev) => (!prev))} />
         </div>
         {/* Navbar list in mobile toggle view */}
-        <div className={` sidebar ${toggle ? "flex" : "hidden"} p-6 bg-black-gradient rounded-xl absolute top-20 right-0 min-w-[8rem] mx-4 my-2 `} >
+        <div className={`ms:hidden block sidebar ${toggle ? "flex" : "hidden"} p-6 bg-black-gradient rounded-xl absolute top-20 right-0 min-w-[8rem] mx-4 my-2 `} >
           <ul className=' flex flex-1 flex-col list-none justify-start items-center '>
             {
               navLinks.map((item, index) => {

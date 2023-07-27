@@ -6,12 +6,12 @@ import Button from '../Components/Button'
 const HeroBanner = () => {
   return (
     <>
-      <section className='flex flex-col justify-center md:items-center items-start'>
+      <section className='flex flex-col  md:items-center items-start h-[100vh]'>
         <h1 className='text-white  font-poppins font-semibold ss:text-[3.5rem] text-[3.3rem] ss:leading-[75px] '>
           Hi
         </h1>
         <h1 className='text-white  font-poppins font-semibold ss:text-[3.5rem] text-[3.3rem] ss:leading-[75px] '>
-          I am
+          This is
         </h1>
         <h1 className='text-white  font-poppins font-semibold ss:text-[3.5rem] text-[3.3rem] ss:leading-[75px]  text-gradient'>
           Md Faisal Raza Khan
@@ -23,7 +23,7 @@ const HeroBanner = () => {
           {
             socialMedia.map((item, index) => {
               return (
-                <div key={item.id} className={` flex flex-row p-2 m-2 rounded-[10px] feature-card-bg cursor-pointer`}>
+                <div key={item.id} className={` flex flex-row p-2 m-2 rounded-xl feature-card-bg cursor-pointer`}>
                   <div className={`w-[3.5rem] h-[3.5rem] rounded-full ${styles.flexCenter} bg-dimBlue`}>
                     <img src={item.icon} alt="star" className="w-[50%] h-[50%] object-contain" />
                   </div>

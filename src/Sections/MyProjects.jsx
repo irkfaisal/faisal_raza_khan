@@ -1,8 +1,23 @@
 import React from 'react'
+import ProjectCard from '../Components/ProjectCard/ProjectCard'
+import { projects } from '../Constants/Data'
+import Button from '../Components/Button'
+import Heading from '../Components/Heading'
 
 const MyProjects = () => {
   return (
-    <div className=''>MyProjects</div>
+    <>
+      <section className='flex flex-col justify-center items-center '>
+        <Heading heading={"Projects"} />
+        <div className='flex sm:flex-row flex-col justify-center items-center px-auto' id="projectDiv">
+          <ProjectCard projects={projects} />
+        </div>
+        <div className='flex justify-center items-center' id='btnDiv'>
+          <Button Btntitle={"See more..."} />
+        </div>
+      </section>
+    </>
+
   )
 }
 
