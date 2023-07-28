@@ -24,9 +24,11 @@ const HeroBanner = () => {
             socialMedia.map((item, index) => {
               return (
                 <div key={item.id} className={` flex flex-row p-2 m-2 rounded-xl feature-card-bg cursor-pointer`}>
-                  <div className={`w-[3.5rem] h-[3.5rem] rounded-full ${styles.flexCenter} bg-dimBlue`}>
-                    <img src={item.icon} alt="star" className="w-[50%] h-[50%] object-contain" />
-                  </div>
+                  <a href={item.link} target='_blank'>
+                    <div className={`w-[3.5rem] h-[3.5rem] rounded-full ${styles.flexCenter} bg-dimBlue`}>
+                      <img src={item.icon} alt="star" className="w-[50%] h-[50%] object-contain" />
+                    </div>
+                  </a>
                 </div>
               )
             })
@@ -35,7 +37,7 @@ const HeroBanner = () => {
         </div>
         <div className='flex justify-center md:items-center items-start py-2'>
           <Button Btntitle={"Projects"} />
-          <Button Btntitle={"Download CV"} />
+          <Button Btntitle={"Experience"} />
         </div>
       </section>
     </>

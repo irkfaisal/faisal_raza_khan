@@ -5,7 +5,7 @@ import Heading from '../Components/Heading'
 const Skills = () => {
   return (
     <>
-      <section className='flex flex-col justify-center items-center '>
+      <section className='flex flex-col justify-center items-center gap-[1rem]'>
         <Heading heading={"Familiar with Technologies"} />
         <div className=' flex justify-evenly items-center feature-card-bg w-full  rounded-xl py-[3rem]'>
           {

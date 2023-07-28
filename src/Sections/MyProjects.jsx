@@ -7,7 +7,7 @@ import Heading from '../Components/Heading'
 const MyProjects = () => {
   return (
     <>
-      <section className='flex flex-col justify-center items-center '>
+      <section className='flex flex-col justify-center items-center gap-[1rem]'>
         <Heading heading={"Projects"} />
         <div className='flex sm:flex-row flex-col justify-center items-center px-auto' id="projectDiv">
           <ProjectCard projects={projects} />
