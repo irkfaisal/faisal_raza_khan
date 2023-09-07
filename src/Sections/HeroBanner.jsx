@@ -36,8 +36,12 @@ const HeroBanner = () => {
           }
         </div>
         <div className='flex justify-center md:items-center items-start py-2'>
-          <Button Btntitle={"Projects"} />
-          <Button Btntitle={"Experience"} />
+          <a href='#Projects'>
+            <Button Btntitle={"Projects"} />
+          </a>
+          <a href='#Experience'>
+            <Button Btntitle={"Experience"} />
+          </a>
         </div>
       </section>
     </>

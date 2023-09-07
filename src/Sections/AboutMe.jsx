@@ -5,7 +5,7 @@ import Heading from '../Components/Heading'
 const AboutMe = () => {
   return (
     <>
-      <section className='flex flex-col justify-center items-center '>
+      <section className='flex flex-col justify-center items-center' id="About_Me">
         <Heading heading={"About Me"} />
         <div className='flex sm:flex-row flex-col justify-start items-center w-full'>
           <div className={` relative overflow-hidden w-[200px] h-[200px] bg-blue-gradient p-[2px]  `} style={{ borderRadius: "50%" }}>

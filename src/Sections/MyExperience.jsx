@@ -5,7 +5,7 @@ import Heading from '../Components/Heading'
 const MyExperience = () => {
   return (
     <>
-      <section className='flex flex-col justify-center items-center p-[1rem]'>
+      <section className='flex flex-col justify-center items-center p-[1rem]' id="Experience">
         <Heading heading={"Experience"} />
         <div className=' flex sm:flex-row flex-col justify-center '>
           <div className=' flex flex-col ' id="left-side">

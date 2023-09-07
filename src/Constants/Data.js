@@ -17,7 +17,7 @@ export const navLinks = [
         title: "About Me"
     },
     {
-        id: "Download_CV",
+        id: "Resume",
         title: "Download CV"
     },
 ]

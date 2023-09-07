@@ -25,7 +25,7 @@ const Resume = () => {
     }
     return (
         <>
-            <section className='feature-card-bg w-full  rounded-xl flex justify-center   items-center feature'>
+            <section className='feature-card-bg w-full  rounded-xl flex justify-center items-center feature' id="Resume">
                 <Button Btntitle={"Download My CV"} />
                 <div className={` flex flex-row p-2 my-5 rounded-xl feature-card-bg cursor-pointer`}>
                     <div id="shareApi" className={`w-[1.5rem] h-[1.5rem] rounded-full ${styles.flexCenter} bg-dimBlue`} onClick={() => share()}>
