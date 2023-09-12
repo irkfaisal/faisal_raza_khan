@@ -12,8 +12,8 @@ const Resume = () => {
         try {
             await navigator.share({
                 title: 'Share Example',
-                text: 'Check out this cool website!',
-                url: 'https://example.com',
+                text: 'Check out my portpolio',
+                url: 'https://irkfaisal.github.io/faisal_raza_khan/',
             });
             console.log('Sharing successful');
         } catch (error) {
