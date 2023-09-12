@@ -24,7 +24,7 @@ const MyExperience = () => {
             <p>As an React js intern developer , I have gain hands-on experience and contribute to the development of our web applications. I have work closely with senior developers and the development team to learn and enhance your skills.</p>
             <p>Here are some of the key responsibilities:</p>
             {
-              role_resp.map((item, index) => {
+              role_resp.map((item,) => {
                 return (
                   <p key={item.id} >{`${item.id}: ${item.text}`}</p>
                 )

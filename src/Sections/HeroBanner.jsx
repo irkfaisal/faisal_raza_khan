@@ -1,9 +1,27 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { socialMedia } from '../Constants/Data'
 import styles from '../Styles'
 import Button from '../Components/Button'
 
 const HeroBanner = () => {
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    // Check if the screen width is below a certain threshold ()
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 620);
+    };
+
+    // Initial check
+    handleResize();
+
+    // Add a resize event listener
+    window.addEventListener('resize', handleResize);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   return (
     <>
       <section className='flex flex-col  md:items-center items-start h-[100vh]'>
@@ -39,7 +57,7 @@ const HeroBanner = () => {
           <a href='#Projects'>
             <Button Btntitle={"Projects"} />
           </a>
-          <a href='#Experience'>
+          <a href={isMobile ? '#Experience_' : '#Experience'}>
             <Button Btntitle={"Experience"} />
           </a>
         </div>
