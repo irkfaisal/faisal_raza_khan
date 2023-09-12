@@ -20,10 +20,10 @@ const Footer = () => {
             }
           </div>
         </div>
-        <div className='text-white w-full flex flex-col items-center gap-2 mb-4 border-t-[1px] border-t-[#3F3E45]' id="somedetails">
+        <div className='text-white w-full flex flex-col items-center gap-2 border-t-[1px] p-4 border-t-[#3F3E45]' id="somedetails">
           <span>{`Developed by Md Faisal Raza Khan`}</span>
-          <p>If you like this portfolio, just give a start on Github <a href=''>https:Github.irkfaisl/</a></p>
-          <span>also checkout the reporistory,from folder structure to css code evrything is so optimised</span>
+          {/* <p>If you like this portfolio, just give a start on Github <a href=''>https:Github.irkfaisl/</a></p>
+          <span>also checkout the reporistory,from folder structure to css code evrything is so optimised</span> */}
         </div>
       </section>
     </>

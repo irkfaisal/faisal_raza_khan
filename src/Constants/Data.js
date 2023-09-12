@@ -1,4 +1,4 @@
-import { linkedin, github, gitlab, cart, imdb, aiweb, html, css, javascript, reactjs, redux, nodejs, mongodb, git, bootstrap, postman, tailwindcss, materialui, location, phone, email } from "../assets"
+import { linkedin, github, gitlab, cart, imdb, aiweb, html, css, javascript, reactjs, redux, nodejs, mongodb, git, bootstrap, postman, tailwindcss, materialui, location, phone, email, sql, java, redux_CounterApp } from "../assets"
 export const navLinks = [
     {
         id: "Projects",
@@ -14,6 +14,28 @@ export const navLinks = [
     },
     {
         id: "About_Me",
+        title: "About Me"
+    },
+    {
+        id: "Resume",
+        title: "Download CV"
+    },
+]
+export const MobNavLinks = [
+    {
+        id: "Projects",
+        title: "Projects",
+    },
+    {
+        id: "Experience_",
+        title: "Experience"
+    },
+    {
+        id: "Skills",
+        title: "Skills"
+    },
+    {
+        id: "About_Me_",
         title: "About Me"
     },
     {
@@ -61,6 +83,13 @@ export const projects = [
         githubLink: "https://github.com/irkfaisal/modernwebsite/",
         liveLink: "https://irkfaisal.github.io/modernwebsite/",
         image: aiweb
+    },
+    {
+        title: "Redux Counter App",
+        description: "A basic counter app with redux-tookit to understand basic of redux & the flow of data from one component to different components from store. We have three components and basically sending data to each other components using redux. It hepl me to understand what is store, action & reducer in redux.",
+        githubLink: "https://github.com/irkfaisal/redux_counterApp",
+        liveLink: "https://irkfaisal.github.io/redux_counterApp/",
+        image: redux_CounterApp
     }
 ]
 
@@ -96,9 +125,9 @@ export const skills = [
         icon: redux
     },
     {
-        id: "mongodb",
-        name: "MongoDB",
-        icon: mongodb
+        id: "mui",
+        name: "Material UI",
+        icon: materialui
     },
     {
         id: "bootstrap",
@@ -111,13 +140,23 @@ export const skills = [
         icon: tailwindcss
     },
     {
-        id: "mui",
-        name: "Material UI",
-        icon: materialui
+        id: "mongodb",
+        name: "MongoDB",
+        icon: mongodb
     },
     {
-        id: "postman",
-        name: "Postman",
+        id: "sql",
+        name: "SQL",
+        icon: sql
+    },
+    {
+        id: "java",
+        name: "Java",
+        icon: java
+    },
+    {
+        id: 'postman',
+        name: "PostMan",
         icon: postman
     },
     {

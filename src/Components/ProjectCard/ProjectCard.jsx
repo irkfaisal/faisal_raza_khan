@@ -6,9 +6,9 @@ const ProjectCard = ({ projects }) => {
     return (
         <>
             {
-                projects.map((item, index) => {
+                projects.map((item) => {
                     return (
-                        <section id="projectCard" key={item.title} className=' text-white flex flex-col feature-card-bg w-[20rem] h-[28rem] rounded-xl mr-6 p-2 '>
+                        <section id="projectCard" key={item.title} className=' text-white flex flex-col feature-card-bg w-[20rem] h-[28rem] rounded-xl  p-2 '>
                             <div className=' w-full h-[8.5rem]' id='image'>
                                 <img src={item.image} alt='projectphoto' className='w-[100%] h-[100%] object-contain rounded-xl' />
                             </div>

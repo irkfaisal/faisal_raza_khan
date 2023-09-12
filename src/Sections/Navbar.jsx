@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { navLinks } from '../Constants/Data'
+import { MobNavLinks, navLinks } from '../Constants/Data'
 import { close, menu } from '../assets'
 
 const Navbar = () => {
@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className={`ms:hidden block sidebar ${toggle ? "flex" : "hidden"} p-6 bg-black-gradient rounded-xl absolute top-20 right-0 min-w-[8rem] mx-4 my-2 `} >
           <ul className=' flex flex-1 flex-col list-none justify-start items-center '>
             {
-              navLinks.map((item, index) => {
+              MobNavLinks.map((item, index) => {
                 return (
                   <li key={item.id} className={` font-poppins font-normal cursor-pointer text-white text-[1rem] ${index === navLinks.length - 1 ? "mr-0" : "mb-4"} `}>
                     <a className='' href={`#${item.id}`}>
