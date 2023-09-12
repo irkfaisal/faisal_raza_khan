@@ -30,7 +30,7 @@ import arrowUp from './arrow_up.png'
 import arrowDown from './arrow_down.png'
 import redux_CounterApp from './redux_counter_app_img.png'
 import left_arrow from './left_arrow.png'
-import resume from './MdFaisalDevResume.pdf'
+import resume from './FaisalFrontEndDevResume.pdf'
 
 export {
     close, menu,
