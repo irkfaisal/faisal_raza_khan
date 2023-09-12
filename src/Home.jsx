@@ -6,7 +6,7 @@ import { Navbar, HeroBanner, MyProjects, MyExperience, AboutMe, Footer, Skills, 
 const Home = () => {
     return (
         <>
-            <div className=' bg-primary  w-full overflow-hidden flex flex-col justify-center  gap-[3rem] '>
+            <div className=' bg-primary  w-full overflow-hidden flex flex-col justify-center  gap-[1rem] '>
                 {/* Navbar */}
                 <div className={`${Styles.paddingX}  ${Styles.flexCenter} `} >
                     <div className={`${Styles.boxWidth}`} >
