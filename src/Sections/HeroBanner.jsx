@@ -24,17 +24,17 @@ const HeroBanner = () => {
   }, []);
   return (
     <>
-      <section className='flex flex-col  md:items-center items-start h-[100vh]'>
-        <h1 className='text-white  font-poppins font-semibold ss:text-[3.5rem] text-[3.3rem] ss:leading-[75px] '>
+      <section className='flex flex-col md:items-center items-start  h-[100vh]'>
+        <h1 className='text-white  font-poppins font-semibold ss:text-[3.5rem] text-[2rem] ss:leading-[75px] '>
           Hi
         </h1>
-        <h1 className='text-white  font-poppins font-semibold ss:text-[3.5rem] text-[3.3rem] ss:leading-[75px] '>
+        <h1 className='text-white  font-poppins font-semibold ss:text-[3.5rem] text-[2rem] ss:leading-[75px] '>
           This is
         </h1>
-        <h1 className='text-white  font-poppins font-semibold ss:text-[3.5rem] text-[3.3rem] ss:leading-[75px]  text-gradient'>
+        <h1 className='text-white  font-poppins font-semibold ss:text-[3.5rem] text-[2rem] ss:leading-[75px]  text-gradient'>
           Md Faisal Raza Khan
         </h1>
-        <h1 className='text-white  font-poppins font-semibold ss:text-[3.5rem] text-[3.3rem] ss:leading-[75px] '>
+        <h1 className='text-white  font-poppins font-semibold ss:text-[3.5rem] text-[2rem] ss:leading-[75px] '>
           A Front-End Developer
         </h1>
         <div className='flex flex-row justify-center items-center'>
