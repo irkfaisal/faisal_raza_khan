@@ -63,11 +63,19 @@ export const socialMedia = [
 ]
 
 export const projects = [
+
+    // {
+    //     title: "Redux E-com cart",
+    //     description: "It’s a simple shopping cart website, where we can add or remove products in cart and also has a filter property to the products. I have used useContext hook for passing data and useReducerhook for add or remove functionality in cart.",
+    //     githubLink: "https://github.com/irkfaisal/redux_ecom_cart",
+    //     liveLink: "https://irkfaisal.github.io/redux_ecom_cart/",
+    //     image: cart
+    // },
     {
-        title: "Shopping Cart",
-        description: "It’s a simple shopping cart website, where we can add or remove products in cart and also has a filter property to the products. I have used useContext hook for passing data and useReducerhook for add or remove functionality in cart.",
-        githubLink: "https://github.com/irkfaisal/react_Ecom_Cart/",
-        liveLink: "https://shopping-cart-with-reactjs.netlify.app/",
+        title: "Redux E-com cart",
+        description: "A react E-commerce application with add to cart functionality using redux-toolkit. I have used https://dummyjson.com/ to get data of 100+ products of different categories. I am also filtering & searching products on the basis of category and products name ",
+        githubLink: "https://github.com/irkfaisal/redux_ecom_cart",
+        liveLink: "https://irkfaisal.github.io/redux_ecom_cart/",
         image: cart
     },
     {

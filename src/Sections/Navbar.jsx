@@ -9,11 +9,6 @@ const Navbar = () => {
       <nav className='navbar w-full flex justify-between items-center ss:py-0 py-3'>
         <h1 className=' py-0 text-gradient font-poppins font-semibold ss:text-[1.8rem] text-[1.8rem] ss:leading-[100px]'>
           irkFaisal &#60;/&#62;
-          {/* gradient start */}
-          {/* <div className="absolute z-[0] w-[50%] h-[50%] top-10 pink__gradient" />
-          <div className="absolute z-[1] w-[20%] h-[20%] rounded-full white__gradient bottom-40" />
-          <div className="absolute z-[0] w-[20%] h-[20%] right-20 bottom-20 blue__gradient" /> */}
-          {/* gradient end */}
         </h1>
         <ul className=' ms:flex hidden list-none justify-end items-center flex-1 '>
           {
@@ -53,3 +48,9 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+{/* gradient start */ }
+{/* <div className="absolute z-[0] w-[50%] h-[50%] top-10 pink__gradient" />
+          <div className="absolute z-[1] w-[20%] h-[20%] rounded-full white__gradient bottom-40" />
+          <div className="absolute z-[0] w-[20%] h-[20%] right-20 bottom-20 blue__gradient" /> */}
+{/* gradient end */ }
