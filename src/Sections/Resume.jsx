@@ -23,7 +23,7 @@ const Resume = () => {
     return (
         <>
             <section className='feature-card-bg w-full  rounded-xl flex justify-center items-center feature' id="Resume">
-                <a href={resume} download="FaisalDevResume.pdf">
+                <a href={resume} download="FaisalDeveloper.pdf">
                     <Button Btntitle={"Download My CV"} />
                 </a>
                 <div className={` flex flex-row p-2 my-5 rounded-xl feature-card-bg cursor-pointer`}>

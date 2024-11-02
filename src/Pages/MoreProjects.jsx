@@ -32,8 +32,8 @@ const MoreProjects = () => {
                                     <img src={left_arrow} alt="star" className="w-[70%] h-[70%] object-contain" />
                                 </div>
                                 <Heading heading={"Projects"} />
-                                <div className='flex justify-center items-center ss:flex-row flex-col gap-5'>
-                                    <ProjectCard projects={projects.slice(3)} />
+                                <div className='flex justify-center items-center ss:flex-row flex-col gap-5 p-28'>
+                                    <ProjectCard projects={projects.slice(1)} />
                                 </div>
                             </div>
                         </section>

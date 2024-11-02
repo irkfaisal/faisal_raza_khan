@@ -15,10 +15,10 @@ const AboutMe = () => {
             <img src={profilePicture} className='w-full h-[auto]  object-contain ' alt='arrow' />
           </div>
           <div className='text-white w-full flex flex-col justify-start gap-3 sm:p-[4rem] p-[2rem]' id="right_aboutme">
-            <p>Hello, I'm Md Faisal Raza Khan, and I work as a front-end developer using MERN technologies. I recently graduated in August 2023 with a B.Tech degree from Asansol Engineering College, where I achieved a good CGPA of 8.7. During my last semester, I had the opportunity to intern as a React.js developer at Step to Soft.</p>
-            <p>I have experience working on two MERN stack projects, and I've also started learning about backend development with Node.js. My goal for the future is to become a skilled full-stack developer.
+            <p>I am a skilled and dedicated Software JavaScript Developer with over a year of experience building dynamic, responsive, and scalable web applications. I have hands-on experience in both frontend and backend development, working with modern frameworks like React, Angular, and Node.js to deliver high-performance solutions across various industries.</p>
+            <p>I have experience working on MERN/MEAN stack projects, and I have also started learning about backend development with Node.js. My goal for the future is to become a skilled full-stack developer.
             </p>
-            <p>I'm really passionate about web development. I enjoy learning about JavaScript and find satisfaction in solving web development challenges.</p>
+            <p>I am really passionate about web development. I enjoy learning about JavaScript and find satisfaction in solving web development challenges.</p>
           </div>
         </div>
       </section>
@@ -36,13 +36,13 @@ const AboutMe = () => {
             {
               seeMore ?
                 <>
-                  <p>Hi, I'm Md Faisal Raza Khan, and I work as a front-end developer using MERN technologies. I recently graduated in August 2023 with a B.Tech degree from Asansol Engineering College, where I achieved a good CGPA of 8.7. During my last semester, I had the opportunity to intern as a React.js developer at Step to Soft.</p>
+                  <p>I am a skilled and dedicated Software JavaScript Developer with over a year of experience building dynamic, responsive, and scalable web applications. I have hands-on experience in both frontend and backend development, working with modern frameworks like React, Angular, and Node.js to deliver high-performance solutions across various industries.</p>
                 </> :
                 <>
-                  <p>Hi, I'm Md Faisal Raza Khan, and I work as a front-end developer using MERN technologies. I recently graduated in August 2023 with a B.Tech degree from Asansol Engineering College, where I achieved a good CGPA of 8.7. During my last semester, I had the opportunity to intern as a React.js developer at Step to Soft.</p>
-                  <p>I have experience working on two MERN stack projects, and I've also started learning about backend development with Node.js. My goal for the future is to become a skilled full-stack developer.
+                  <p>I am a skilled and dedicated Software JavaScript Developer with over a year of experience building dynamic, responsive, and scalable web applications. I have hands-on experience in both frontend and backend development, working with modern frameworks like React, Angular, and Node.js to deliver high-performance solutions across various industries.</p>
+                  <p>I have experience working on MERN/MEAN stack projects, and I have also started learning about backend development with Node.js. My goal for the future is to become a skilled full-stack developer.
                   </p>
-                  <p>I'm really passionate about web development. I enjoy learning about JavaScript and find satisfaction in solving web development challenges.</p>
+                  <p>I am really passionate about web development. I enjoy learning about JavaScript and find satisfaction in solving web development challenges.</p>
                 </>
             }
           </div>

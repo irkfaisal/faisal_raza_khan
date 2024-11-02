@@ -1,4 +1,4 @@
-import { linkedin, github, gitlab, cart, imdb, aiweb, html, css, javascript, reactjs, redux, nodejs, mongodb, git, bootstrap, postman, tailwindcss, materialui, location, phone, email, sql, java, redux_CounterApp } from "../assets"
+import { linkedin, github, gitlab, cart, imdb, aiweb, html, css, javascript, reactjs, redux, nodejs, mongodb, git, bootstrap, postman, tailwindcss, materialui, location, phone, email, sql, redux_CounterApp, aireusmemail, angular } from "../assets"
 export const navLinks = [
     {
         id: "Projects",
@@ -63,14 +63,13 @@ export const socialMedia = [
 ]
 
 export const projects = [
-
-    // {
-    //     title: "Redux E-com cart",
-    //     description: "It’s a simple shopping cart website, where we can add or remove products in cart and also has a filter property to the products. I have used useContext hook for passing data and useReducerhook for add or remove functionality in cart.",
-    //     githubLink: "https://github.com/irkfaisal/redux_ecom_cart",
-    //     liveLink: "https://irkfaisal.github.io/redux_ecom_cart/",
-    //     image: cart
-    // },
+    {
+        title: "AI Resume Mailer",
+        description: "A web application built to streamline the process of sending personalized resume emails to HR departments or company career mail IDs. Users fill out a form with basic professional details, like job title, experience.Using the ChatGPT API, the app creates a personalized and professional email based on the user’s inputs.The generated email is sent directly to the specified HR email",
+        githubLink: "https://github.com/irkfaisal/AIResumeMailer-",
+        liveLink: "https://docs.google.com/document/d/1boCr8-ec15o3YXC16mCrKyaxcbRcl7-C7TZfXIS1R-M/edit?tab=t.0",
+        image: aireusmemail
+    },
     {
         title: "Redux E-com cart",
         description: "A react E-commerce application with add to cart functionality using redux-toolkit. I have used https://dummyjson.com/ to get data of 100+ products of different categories. I am also filtering & searching products on the basis of category and products name ",
@@ -129,8 +128,8 @@ export const skills = [
     },
     {
         id: "redux",
-        name: "Redux",
-        icon: redux
+        name: "Angular",
+        icon: angular
     },
     {
         id: "mui",
@@ -159,8 +158,8 @@ export const skills = [
     },
     {
         id: "java",
-        name: "Java",
-        icon: java
+        name: "Redux",
+        icon: redux
     },
     {
         id: 'postman',
@@ -177,23 +176,33 @@ export const skills = [
 export const role_resp = [
     {
         id: 1,
-        text: "Assisting in the development of user interfaces: Collaborate with the development team to implement user interfaces using React.js, ensuring they are visually appealing, intuitive, and responsive."
+        text: "Assisting in the development of user interfaces: Collaborate with the development team to implement user interfaces using both React.js and Angular, ensuring they are visually appealing, intuitive, and responsive.",
+        area:"Frontend Development"
     },
     {
         id: 2,
-        text: " Take on assigned tasks related to frontend development, such as coding HTML, CSS, and JavaScript, and integrating them into React.js components."
+        text: " Handle Node.js and SQL queries for backend functionality.",
+        area:"Backend Development"
     },
     {
         id: 3,
-        text: "Optimised CSS code, fixed responsiveness, learned best folder structure format of application."
+        text: "Develop and integrate APIs from backend to frontend.",
+        area:"API Development and Integration"
     },
     {
         id: 4,
-        text: "Contribute to maintaining documentation, including code comments. Assist in organizing and managing code repositories, ensuring a clean and efficient codebase."
+        text: "Implement state management using Redux for data consistency.",
+        area:"State Management"
     },
     {
         id: 5,
-        text: "Bug fixing and troubleshooting: Assist in identifying and resolving issues reported by users or identified during testing, ensuring the smooth functioning of the application."
+        text: "Optimize performance through techniques like code splitting.",
+        area:"Performance Optimization"
+    },
+    {
+        id: 6,
+        text: " Write clear and comprehensive documentation to maintain project clarity and consistency.",
+        area:"Code Documentation"
     },
 ]
 

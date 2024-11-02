@@ -13,20 +13,20 @@ const MyExperience = () => {
         <Heading heading={"Experience"} />
         <div className=' flex sm:flex-row flex-col justify-center '>
           <div className=' flex flex-col ' id="left-side">
-            <a href='https://steptosoft.com/' target='_blank'>
-              <h1 className='text-white text-gradient font-poppins font-semibold ss:text-[1.7rem] text-[1.2rem] ss:leading-[50px] cursor-pointer'>Step To Soft</h1>
+            <a href='' target='_blank' rel="noreferrer">
+              <h1 className='text-white text-gradient font-poppins font-semibold ss:text-[1.7rem] text-[1.2rem] ss:leading-[50px] cursor-pointer'>Techverse Origin Pvt Ltd</h1>
             </a>
-            <p className='text-white font-poppins font-semibold ss:text-[1.2rem] text-[1rem] ss:leading-[25px]'>React js Developer (Intern)</p>
-            <p className='text-white font-poppins font-semibold ss:text-[1rem] text-[0.8rem] ss:leading-[35px]'>Dec 2022 - present</p>
+            <p className='text-white font-poppins font-semibold ss:text-[1.2rem] text-[1rem] ss:leading-[25px]'>Software Developer</p>
+            <p className='text-white font-poppins font-semibold ss:text-[1rem] text-[0.8rem] ss:leading-[35px]'>April 2024 - present</p>
+            <p className='text-white font-poppins font-semibold ss:text-[1rem] text-[0.8rem] ss:leading-[35px]'>Noida, UP</p>
           </div>
           <div className='text-white w-full flex flex-col justify-start gap-3 p-[12px]  rounded-xl' id="right-side">
             <h1 className='text-white text-gradient font-poppins font-semibold ss:text-[1.5rem] text-[1rem] ss:leading-[25px]'>Roles & Responsibility</h1>
-            <p>As an React js intern developer , I have gain hands-on experience and contribute to the development of our web applications. I have work closely with senior developers and the development team to learn and enhance your skills.</p>
-            <p>Here are some of the key responsibilities:</p>
+            <p>As a Software Developer, I worked in both frontend and backend development, with a focus on creating optimized, scalable solutions using JavaScript frameworks and libraries. My responsibilities cover a range of tasks from building UI components to integrating APIs, writing SQL queries and writing thorough code documentation.</p>
             {
               role_resp.map((item,) => {
                 return (
-                  <p key={item.id} >{`${item.id}: ${item.text}`}</p>
+                  <p key={item.id} >{`${item.id}. ${item.area} ${item.text}`}</p>
                 )
               })
             }
@@ -40,18 +40,18 @@ const MyExperience = () => {
         <div className=' flex sm:flex-row flex-col justify-center gap-4'>
           <div className=' flex flex-col gap-3' id="left-side">
             <h1 className='text-white text-gradient font-poppins font-semibold ss:text-[1.7rem] text-[1.2rem] ss:leading-[50px]'>Step To Soft</h1>
-            <p className='text-white font-poppins font-semibold ss:text-[1.2rem] text-[1rem] ss:leading-[25px]'>React js Developer (Intern)</p>
-            <p className='text-white font-poppins font-semibold ss:text-[1rem] text-[0.8rem] ss:leading-[35px]'>Dec 2022 - present</p>
+            <p className='text-white font-poppins font-semibold ss:text-[1.2rem] text-[1rem] ss:leading-[25px]'>Software Developer</p>
+            <p className='text-white font-poppins font-semibold ss:text-[1rem] text-[0.8rem] ss:leading-[35px]'>April 2024 - present</p>
+            <p className='text-white font-poppins font-semibold ss:text-[1rem] text-[0.8rem] ss:leading-[35px]'>Noida, UP</p>
           </div>
           <div className='text-white w-full flex flex-col justify-start gap-3 p-[12px]  rounded-xl' id="right-side">
             <h1 className='text-white text-gradient font-poppins font-semibold ss:text-[1.5rem] text-[1rem] ss:leading-[25px]'>Roles & Responsibility</h1>
-            <p>As an React js intern developer , I have gain hands-on experience and contribute to the development of our web applications. I have work closely with senior developers and the development team to learn and enhance your skills.</p>
-            <p>Here are some of the key responsibilities:</p>
+            <p>As a Software Developer, I worked in both frontend and backend development, with a focus on creating optimized, scalable solutions using JavaScript frameworks and libraries. My responsibilities cover a range of tasks from building UI components to integrating APIs, writing SQL queries and writing thorough code documentation.</p>
             {
               role_resp.map((item, index) => {
                 return (
                   seeMore ?
-                    index <= 0 ? <p key={item.id} >{`${item.id}: ${item.text}`}</p> : ""
+                    index <= 0 ? <p key={item.id} >{`${item.id}. ${<b>{item.area}</b>} ${item.text}`}</p> : ""
                     :
                     <p key={item.id} >{`${item.id}: ${item.text}`}</p>
                 )

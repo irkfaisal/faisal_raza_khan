@@ -11,6 +11,7 @@ import css from './css.svg'
 import javascript from './javascript.svg'
 import reactjs from './reactjs.svg'
 import redux from './redux.svg'
+import angular from './angularjs.png'
 import nodejs from './nodejs.svg'
 import mongodb from './mongodb.svg'
 import bootstrap from './bootstrap.svg'
@@ -30,13 +31,14 @@ import arrowUp from './arrow_up.png'
 import arrowDown from './arrow_down.png'
 import redux_CounterApp from './redux_counter_app_img.png'
 import left_arrow from './left_arrow.png'
-import resume from './FaisalFrontEndDevResume.pdf'
+import aireusmemail from './AIResumeMailerBanner.png'
+import resume from './FaisalDeveloper.pdf'
 
 export {
     close, menu,
     gitlab, github, linkedin,
-    cart, imdb, aiweb, redux_CounterApp,
-    html, css, javascript, reactjs, nodejs, mongodb, bootstrap, tailwindcss, redux, postman, materialui, git, java, sql,
+    cart, imdb, aiweb, redux_CounterApp, aireusmemail,
+    html, css, javascript, reactjs, nodejs, angular, mongodb, bootstrap, tailwindcss, redux, postman, materialui, git, java, sql,
     shareLink,
     profilePicture,
     location, email, phone, heart,
