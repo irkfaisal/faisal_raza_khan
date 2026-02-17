@@ -13,7 +13,7 @@ const Resume = () => {
             await navigator.share({
                 title: 'Share Example',
                 text: 'Check out my portpolio',
-                url: 'https://irkfaisal.github.io/faisal_raza_khan/',
+                url: 'https://irkfaisal.com/',
             });
             console.log('Sharing successful');
         } catch (error) {
