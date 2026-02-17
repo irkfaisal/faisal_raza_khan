@@ -35,7 +35,7 @@ const HeroBanner = () => {
           Md Faisal Raza Khan
         </h1>
         <h1 className='text-white  font-poppins font-semibold ss:text-[3.5rem] text-[2rem] ss:leading-[75px] '>
-          A Front-End Developer
+          A Software Developer
         </h1>
         <div className='flex flex-row justify-center items-center'>
           {

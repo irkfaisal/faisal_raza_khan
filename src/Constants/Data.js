@@ -177,39 +177,39 @@ export const role_resp = [
     {
         id: 1,
         text: "Assisting in the development of user interfaces: Collaborate with the development team to implement user interfaces using both React.js and Angular, ensuring they are visually appealing, intuitive, and responsive.",
-        area:"Frontend Development"
+        area: "Frontend Development"
     },
     {
         id: 2,
         text: " Handle Node.js and SQL queries for backend functionality.",
-        area:"Backend Development"
+        area: "Backend Development"
     },
     {
         id: 3,
         text: "Develop and integrate APIs from backend to frontend.",
-        area:"API Development and Integration"
+        area: "API Development and Integration"
     },
     {
         id: 4,
         text: "Implement state management using Redux for data consistency.",
-        area:"State Management"
+        area: "State Management"
     },
     {
         id: 5,
         text: "Optimize performance through techniques like code splitting.",
-        area:"Performance Optimization"
+        area: "Performance Optimization"
     },
     {
         id: 6,
         text: " Write clear and comprehensive documentation to maintain project clarity and consistency.",
-        area:"Code Documentation"
+        area: "Code Documentation"
     },
 ]
 
 export const personalData = [
     {
         id: "location",
-        text: "Asansol WB INDIA",
+        text: "Noida UP",
         icon: location
     },
     {
